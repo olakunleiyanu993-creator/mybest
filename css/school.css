@@ -1,0 +1,437 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#spinner{
+  margin: 240px 550px;
+}
+.topbar{
+  width: 100%;
+  background-color: green;
+  color: white;
+  position: fixed;
+  z-index: 1;
+}
+
+.tops{
+  margin: 10px 250px;
+}
+/* a:active{
+  color: rgb(205, 11, 11);
+} */
+.tops a{
+  text-decoration: none;
+  color: rgba(245, 245, 245, 0.841);
+  padding: 0 12px;
+  font-size: 20px;
+}
+.tops a:hover{
+  color: white;
+}
+.hero{
+  padding-top: 150px !important;
+    background-image: url(/img/school_compound.jpg);
+      background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.536);
+  
+}
+.im{
+  width: 100%;
+  /* height: 600px; */
+}
+.im h3{
+  display: none;
+}
+.im h1{
+  width: 900px;
+  font-size: 60px;
+  margin: auto;
+  padding: 60px 0;
+  color:  greenyellow;
+}
+.im p{
+  color:  white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.im .app{
+  background-color: green;
+  width: 160px;
+  height: 60px;
+  color: white;
+  border-radius: 30px;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.im .app:hover{
+  background: none;
+  color: greenyellow;
+  border: 1px solid greenyellow !important;
+  transition: 1s;
+  transform: translateY(-5px);  
+}
+.im .cam{
+  background: none;
+  width: 160px;
+  height: 60px;
+  color: greenyellow;
+  border-radius: 30px;
+  margin: 20px 0;
+  border: 1px solid greenyellow;
+  font-size: 20px;
+}
+.cam:hover{
+  background-color: green;
+  color: white;
+  border: 1px solid white;
+  transition: 1s;
+  transform: translateY(-5px);
+}
+.apply{
+  margin: 0 450px !important;
+}
+.apply ~ p{
+  background-color: greenyellow !important;
+  opacity: 0.8;
+  width: 60%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.menu{
+  display: none;
+}
+.graduate{
+ margin: 20px 70px;
+}
+.graduate a{
+  margin: 20px 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  padding: 15px 10px;
+}
+.graduate a:hover{
+  transform: translateY(-9px);
+}
+.feat{
+  background-color: rgba(0, 128, 0, 0.125);
+}
+.cour:hover{
+  transform: translateY(-10px);
+}
+.cou a{
+  margin: 10px 0;
+}
+.cou a:hover{
+  box-shadow: 0 8px 16px rgba(0, 30,0);
+}
+.stu a{
+  color: black;
+  position: relative;
+  top: 50px;
+}
+.stu a:hover{
+  text-decoration: underline green !important;
+}
+.campu a:hover{
+  transform: translateY(-6px);
+  transform: scale(1.08);
+}
+.lead{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px !important;
+}
+.lead img{
+  width: 360px;
+}
+.hub img{
+  height: 360px;
+}
+.lead div{
+  width: 360px;
+}
+.lead div:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 8px rgba(0, 0.5,0);
+  /* padding: 0 5px; */
+}
+.lead p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.trop{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+.trop div{
+  width: 270px;
+}
+.trop img{
+  width: 270px;
+}
+.tro img,.color img, .lab img, .seminar img{
+  height: 280px;
+}
+.trop p{
+  width: 100%;
+  text-align: justify;
+}
+.trop a{
+  text-decoration: none;
+  color: black;
+}
+.trop a:nth-child(2):hover{
+  opacity: 0.6;
+}
+.sele select{
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+}
+.event .eve{
+  /* width: 500px; */
+  height: 350px;
+  background-color: white;
+  box-shadow: 0 8px 7px rgba(0, 0.5,0);
+  padding: 0;
+  margin-top: 40px;
+}
+.event h2{
+  background-color: green;
+  color: white;
+  font-size: 30px;
+  width: 170px;
+  height: 350px;
+  padding: 100px 20px;
+  text-align: center;
+}
+.aca{
+  margin: 5px 15px;
+}
+.aca button{
+  border: none;
+  padding: 10px 30px;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.aca button:last-child{
+  background-color: green;
+  opacity: 0.6;
+  margin-left: 30px;
+}
+.view{
+  margin: 50px 430px;
+  width: 170px;
+  height: 50px;
+  }
+  footer{
+    width: 100%;
+    background-color: black;
+  }
+  .foots a{
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  .foots{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    margin-left: -80px !important;
+  }
+  footer{
+    padding: 80px 70px;
+  }
+  .footers{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .foots a:hover{
+    color: green;
+  }
+  .foot i{
+    color: green;
+  }
+  .foot p{
+    font-size: 20px;
+  }
+  .foot p:first-child{
+    font-size: 70px;
+  }
+  .footers ~ a{
+    font-size: 30px;
+    color: white;
+  }
+  .footers ~ a:hover{
+    color: green;
+  }
+  .foot p:nth-child(2){
+   width: 400px;
+  }
+.lead div p{
+  padding: 0 10px !important;
+}  
+@media screen and (max-width:900px) {
+  body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #spinner{
+    margin:310px 180px !important;
+  }
+  .top p{
+    margin-top: 10px;
+  }
+  .menu {
+    display: block;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 220px;
+  }
+  .tops a{
+   display: block;
+   padding: 10px 0;
+   margin-left: -245px;
+  }
+  .im h1{
+    width: 100%;
+    font-size: 50px;
+    display: none;
+  }
+  .im h3{
+    display: block;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .im p{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .at{
+    display: none;
+  }
+  .apply{
+    margin-left: 70px !important;
+  }
+  .apply button{
+    width: 270px !important;
+    height: 60px !important;
+  }
+  .cam{
+    position: relative;
+    bottom: 20px;
+  }
+  .graduate{
+ margin: 20px 0;
+}
+.empo{
+  margin-top: 20px;
+}
+.cou{
+  margin: 0 !important;
+}
+.cou a{
+  height: 400px !important;
+  display: block !important;
+   width: 100% !important;
+}
+.cou a img{
+  margin: 0 90px;
+  width: 50%;
+  height: 150px;
+}
+.cou p{
+  text-align: center;
+}
+.cut{
+  width: 100% !important;
+  margin: 0 10px;
+}
+.mt{
+  width: 100%;
+  position: relative;
+  top: 15px;
+}
+.cut a:nth-child(1){
+  width: 600px !important;
+}
+.stu a{
+  position: relative;
+  top: -10px !important;
+}
+.lead{
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0 4px;
+}
+.lead div{
+  margin: 10px 0;
+  width: 100% !important;
+}
+.lead img{
+  width: 100% !important;
+}
+
+.myj{
+  width: 100% !important;
+  text-align: justify;
+  padding: 0 10px;
+}
+.im5 img{
+  width: 100%;
+  margin-top: 15px;
+ margin-left: 0 !important;
+}
+.trop{
+  display: grid;
+  grid-template-columns: auto;
+}
+.trop div{
+  width: 100%;
+}
+.trop img{
+  width: 100%;
+}
+.event .eve{
+  height: 480px;
+}
+.event h2{
+  height: 480px;
+}
+.aca button:last-child{
+  margin-left: -5px;
+  margin-top: 10px;
+}
+.view{
+  margin-left: 100px;
+  padding: 10px 30px !important;
+}
+.footers{
+  display: block;
+}
+.foot{
+  width: 100% !important;
+}
+footer{
+  padding: 0;
+}
+.foots{
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 25px;
+  margin-left: 15px !important;
+}
+}
