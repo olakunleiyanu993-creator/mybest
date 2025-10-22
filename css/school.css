@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 #spinner{
   margin: 240px 550px;
@@ -435,3 +436,22 @@ footer{
   margin-left: 15px !important;
 }
 }
+
+/* @media screen and (max-width:1540px) {
+  .lead div{
+    width: 100% !important;
+    margin: 0 40px;
+  }
+  .lead img{
+    width: 100% !important;
+  }
+  .hero2{
+    margin: 0 80px;
+  }
+  .apply{
+    margin-left: 170px !important;
+  }
+  .cou{
+    margin-left: 10px !important;
+  }
+} */
