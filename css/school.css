@@ -1,7 +1,11 @@
+
+*{
+overflow-x: hidden !important;
+}
 body{
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 #spinner{
   margin: 240px 550px;
