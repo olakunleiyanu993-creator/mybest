@@ -293,9 +293,9 @@ body{
   #spinner{
     margin:310px 180px !important;
   }
-  .topbar{
+  /* .topbar{
     width: 10px !important;
-  }
+  } */
   .top p{
     margin-top: 10px;
   }
