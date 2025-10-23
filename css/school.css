@@ -1,11 +1,7 @@
-
-*{
-overflow-x: hidden;
-}
 body{
   margin: 0;
   padding: 0;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 #spinner{
   margin: 240px 550px;
@@ -307,7 +303,9 @@ body{
   .tops a{
    display: block;
    padding: 10px 0;
-   margin-left: -245px;
+   position: relative;
+   right: 240px;
+   width: 100%;
    color: white;
   }
   .im h1{
@@ -332,7 +330,8 @@ body{
     display: none;
   }
   .apply{
-    margin-left: 70px !important;
+    position: relative;
+    right: 380px;
   }
   .apply button{
     width: 270px !important;
