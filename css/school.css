@@ -1,7 +1,7 @@
 
-*{
+/* *{
 overflow-x: hidden !important;
-}
+} */
 body{
   margin: 0;
   padding: 0;
@@ -288,7 +288,6 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden !important;
   }
   #spinner{
     margin:310px 180px !important;
@@ -308,7 +307,8 @@ body{
   .tops a{
    display: block;
    padding: 10px 0;
-
+   margin-left: -245px;
+   color: white;
   }
   .im h1{
     width: 100%;
