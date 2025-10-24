@@ -1,3 +1,6 @@
+*{
+  overflow-x: hidden;
+}
 body{
   margin: 0;
   padding: 0;
@@ -280,9 +283,9 @@ body{
   padding: 0 10px !important;
 }  
 @media screen and (max-width:480px) {
-  *{
+  /* *{
     overflow-x: hidden;
-  }
+  } */
   body{
     margin: 0;
     padding: 0;
@@ -303,6 +306,9 @@ body{
     margin-top: 10px;
     margin-left: 220px;
   }
+  .tops{
+    margin-left: -100px;
+  }
   .tops a{
    display: block;
    padding: 10px 0;
@@ -310,6 +316,10 @@ body{
    right: 240px;
    width: 100%;
    color: white;
+  }
+  .im{
+    position: relative;
+    bottom: 30px;
   }
   .im h1{
     width: 100%;
@@ -326,7 +336,7 @@ body{
   }
   .im p{
     width: 80%;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
   }
   .at{
@@ -335,6 +345,7 @@ body{
   .apply{
     position: relative;
     right: 380px;
+    display: none;
   }
   .apply button{
     width: 270px !important;
@@ -443,6 +454,43 @@ footer{
   grid-template-columns: auto auto;
   font-size: 25px;
   margin-left: 15px !important;
+}
+
+.amm{
+  background-color: green;
+  width: 260px;
+  height: 60px;
+  color: white;
+  border-radius: 30px;
+  margin: 20px 0;
+  font-size: 20px;
+}
+.amm:hover{
+  background: none;
+  color: greenyellow;
+  border: 1px solid greenyellow !important;
+  transition: 1s;
+  transform: translateY(-5px);  
+}
+.cpp{
+  background: none;
+  width: 260px;
+  height: 60px;
+  color: greenyellow;
+  border-radius: 30px;
+  margin: 10px 0;
+  border: 1px solid greenyellow;
+  font-size: 20px;
+}
+.cpp:hover{
+  background-color: green;
+  color: white;
+  border: 1px solid white;
+  transition: 1s;
+  transform: translateY(-5px);
+}
+.apple ~ p{
+  display: none;
 }
 }
 
