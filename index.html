@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="css/school.css">
 </head>
 <body>
-<span class="spinner-border text-success" style="width:70px; height: 70px;" id="spinner"></span>
+<div id="spinn">
+  <span class="spinner-border text-success container" style="width:70px; height: 70px;" id="spinner"></span>
+</div>
   <div id="spi" style="display: none;">
     <nav class="navbar navbar-expand-lg topbar navbar-dark">
   <div class="top container-fluid">
@@ -428,10 +430,10 @@ As I graduate, I feel proud, prepared, and grateful. This school has not only ta
 <script>
   function dis(){
     document.getElementById('spi').style.display='block'
-    document.getElementById('spinner').style.display='none'
+    document.getElementById('spinn').style.display='none'
   }
    setTimeout(dis,3000)
-document.getElementById('spinner').addEventListener("load",dis)
+document.getElementById('spinn').addEventListener("load",dis)
  
 </script>
 </html>

@@ -6,9 +6,20 @@ body{
   padding: 0;
   overflow-x: hidden;
 }
-#spinner{
-  margin: 240px 550px;
+#spinn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;      /* full viewport height */
+  width: 100vw;       /* full viewport width */
+  position: fixed;    /* stay fixed on screen */
+  top: 0;
+  left: 0;
+  background: #fff;   /* optional: white background while loading */
+  z-index: 9999;      /* make sure it stays on top */
 }
+
+
 .topbar{
   width: 100%;
   background-color: green;
@@ -290,9 +301,7 @@ body{
     padding: 0;
     width: 100%;
   }
-  #spinner{
-    margin:310px 180px !important;
-  }
+
   .top p{
     margin-top: 10px;
   }
