@@ -11,15 +11,12 @@ body{
 }
 .topbar{
   width: 100%;
-  background-color: rgb(26, 0, 128);
+  background-color: green;
   color: white;
   position: fixed;
   z-index: 1;
 }
 
-.tops{
-  margin: 10px 250px;
-}
 /* a:active{
   color: rgb(205, 11, 11);
 } */
@@ -28,6 +25,9 @@ body{
   color: rgba(245, 245, 245, 0.841);
   padding: 0 12px;
   font-size: 20px;
+}
+.tops{
+  margin-left: 400px;
 }
 .tops a:hover{
   color: white;
@@ -307,15 +307,13 @@ body{
     margin-left: 220px;
   }
   .tops{
-    margin-left: -100px;
+    display: block;
+    font-size: 30px;
+    margin-left: 0;
   }
   .tops a{
-   display: block;
-   padding: 10px 0;
-   position: relative;
-   right: 240px;
-   width: 100%;
-   color: white;
+  display: block;
+  padding: 10px 0;
   }
   .im{
     position: relative;
