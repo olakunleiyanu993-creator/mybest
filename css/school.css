@@ -1,6 +1,3 @@
-*{
-  overflow-x: hidden;
-}
 body{
   margin: 0;
   padding: 0;
@@ -16,10 +13,6 @@ body{
   position: fixed;
   z-index: 1;
 }
-
-/* a:active{
-  color: rgb(205, 11, 11);
-} */
 .tops a{
   text-decoration: none;
   color: rgba(245, 245, 245, 0.841);
@@ -282,6 +275,9 @@ body{
 .lead div p{
   padding: 0 10px !important;
 }  
+.abo{
+  display: none;
+}
 @media screen and (max-width:480px) {
   /* *{
     overflow-x: hidden;
@@ -294,9 +290,6 @@ body{
   #spinner{
     margin:310px 180px !important;
   }
-  /* .topbar{
-    width: 10px !important;
-  } */
   .top p{
     margin-top: 10px;
   }
@@ -359,6 +352,21 @@ body{
 .empo{
   margin-top: 20px;
 }
+.empower h1{
+  text-align: center;
+}
+.empower:nth-child(1){
+  text-align: justify;
+  width: 100%;
+  padding-left: 30px;
+}
+.about{
+  display: none;
+}
+.abo{
+  display: block;
+  text-align: justify;
+}
 .cou{
   margin: 0 !important;
 }
@@ -394,7 +402,6 @@ body{
 .lead{
   display: grid;
   grid-template-columns: auto;
-  margin: 0 4px;
 }
 .lead div{
   margin: 10px 0;
@@ -403,11 +410,24 @@ body{
 .lead img{
   width: 100% !important;
 }
-
+.discover p:nth-child(2){
+  width: 100% !important;
+  text-align: justify;
+}
+.discover p:nth-child(1){
+  text-align: center !important;
+  padding-left: 5px;
+}
 .myj{
   width: 100% !important;
   text-align: justify;
   padding: 0 10px;
+}
+.stu p:nth-child(2){
+  text-align: center;
+}
+.stu p:nth-child(3){
+  text-align: justify;
 }
 .im5 img{
   width: 100%;
@@ -430,6 +450,26 @@ body{
 .event h2{
   height: 480px;
 }
+.sele:nth-child(2){
+  margin-top: 10px;
+}
+.event{
+  display: none;
+}
+.dfe{
+  padding: 0 !important;
+}
+.dfe1{
+  background-color: rgba(0, 128, 0, 0.592);
+  padding: 10px 5px;
+}
+.dfe1 button{
+  background-color: white;
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
 .aca button:last-child{
   margin-left: -5px;
   margin-top: 10px;
@@ -445,7 +485,7 @@ body{
   width: 100% !important;
 }
 footer{
-  padding: 0;
+  padding: 0 10px;
 }
 .foots{
   display: grid;
@@ -491,22 +531,3 @@ footer{
   display: none;
 }
 }
-
-/* @media screen and (max-width:1540px) {
-  .lead div{
-    width: 100% !important;
-    margin: 0 40px;
-  }
-  .lead img{
-    width: 100% !important;
-  }
-  .hero2{
-    margin: 0 80px;
-  }
-  .apply{
-    margin-left: 170px !important;
-  }
-  .cou{
-    margin-left: 10px !important;
-  }
-} */
